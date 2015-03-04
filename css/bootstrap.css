@@ -267,7 +267,7 @@ th {
 @font-face {
   font-family: 'Lora';
 
-  src: url('../fonts/Lora-Regular.ttf');
+  src: url('../fonts/Lora-Regular.ttf') format('truetype');
 }
 .Lora {
   position: relative;
