@@ -12,7 +12,6 @@ html {
 }
 body {
   margin: 0;
-  font-family: 'Lora';
 }
 article,
 aside,
@@ -266,7 +265,7 @@ th {
   }
 }
 @font-face {
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
 
   src: url('../fonts/Lora-Regular.ttf');
 }
