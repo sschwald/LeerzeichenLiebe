@@ -6,6 +6,7 @@
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 html, body {
+	font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
     overflow:hidden;
