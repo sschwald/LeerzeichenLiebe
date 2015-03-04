@@ -6,7 +6,7 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: Lora;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -106,7 +106,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Lora-Regular.ttf ;
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 button,
@@ -268,7 +268,6 @@ th {
   font-family: 'Lora';
 
   src: url('../fonts/Lora-Regular.ttf');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
