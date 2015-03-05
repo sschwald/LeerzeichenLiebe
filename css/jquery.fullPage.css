@@ -185,3 +185,22 @@ html, body {
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
 }
+figure{
+  margin: 0;
+}
+ 
+figure.erstereihe {
+  display: inline-block;
+  float: left;
+  padding: 25px -250px 25px 25px;
+  width: 33%;
+  border: 0px solid gainsboro;
+}
+
+figure.zweitereihe {
+  display: inline-block;
+  float: right;
+  padding: 25px 25px 25px 25px;
+  width: 33%;
+  border: 0px solid gainsboro;
+}
