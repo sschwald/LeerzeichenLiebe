@@ -4486,10 +4486,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
+  font-family: 'Ostrich Sans Black', sans-serif;
   color: #fff;
+  font-size: 20px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
+  
   color: #fff;
   background-color: transparent;
 }
