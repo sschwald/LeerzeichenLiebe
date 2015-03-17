@@ -266,8 +266,9 @@ th {
 }
 @font-face {
   font-family: 'Lora', serif;
-
   src: url('../fonts/Lora-Regular.ttf');
+  font-family: 'Ostrich Sans Black', sans-serif;
+  src: url('../fonts/ostrich-black.ttf');
 }
 .glyphicon {
   position: relative;
@@ -1172,10 +1173,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
+  font-family: 'Ostrich Sans Black', sans-serif;
 }
 h1 small,
 h2 small,
