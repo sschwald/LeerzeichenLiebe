@@ -26,7 +26,9 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
           <![endif]-->
-
+          <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+          <link rel="stylesheet" href="css/galerie.css">
+          <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 
 
@@ -85,8 +87,7 @@
               <header class="header-image">
                 <div class="headline">
                   <div class="container">
-                    <h1>Leerzeichen Liebe</h1>
-                    <h2>Bummsen in den 60ern</h2>
+                    <img class="img-responsive center-block" src="./images/logo.png" alt="Short alt text">
                   </div>
                 </div>
               </header>
@@ -100,9 +101,9 @@
               <div class="maske">
                 <div class="container">
                   <div class="featurette" id="handlung">
-                   <h2 class="featurette-heading">Handlung
+                   <h2 class="featurette-heading text-center">Handlung
                    </h2>
-                   <p class="text-justify">
+                   <p class="text-center">
                      Der Kurzfilm „Leerzeichen Liebe“ zeigt die Begegnung zweier junger Menschen Anfang der 60er Jahre in einem Cafe. Es handelt sich dabei um die hübsche Mia auf der einen Seite und den adretten Gabriel
                      auf der anderen. Doch zunächst wissen Beide nichts voneinander. Parallel zu dieser Szenerie wird der vermeintlich weit weg scheinende Arbeitsalltag eines netten, älteren Herrn dargeboten. Dieser wirkt ziemlich überarbeitet aber trotzdem nicht missmutig. Als dann auch noch ein sehr dringender Auftrag seines Vorgesetzten auf seinem Tisch landet nimmt die Geschichte ihren Lauf.<br></br>
                      Die verträumte Mia widmet ihre ganze Aufmerksamkeit und Hingabe ihrem Traum einmal nach Frankreich zu reisen. Dies drückt sie in ihren Zeichnungen aus, denn genau so eine Zeichnung fertigt sie auch in dem Moment an, in dem Gabriel das Cafe betritt und sich einen Kaffee bestellt. Wie durch Zufall scheint Gabriel auf der Suche nach einem vollen Zuckerspender auf Mia zu stoßen. Wie versteinert scheint er seinen Blick nicht mehr von ihr abwenden zu kön- nen. Erst als Sie ihn dabei ertappt, kann Gabriel sein Augenmerk von ihr abnehmen. Zunächst etwas be
@@ -121,7 +122,7 @@
             <div class="maske">
               <div class="container">
                 <div class="featurette" id="team">
-                  <h2 class="featurette-heading">Team
+                  <h2 class="featurette-heading text-center">Team
                   </h2>
                   <div class="row">
                     <div class="col-md-8 col-md-offset-1">
@@ -193,62 +194,56 @@
             <div class="maske">
               <div class="container">
                 <div class="featurette" id="galerie">
-
-                  <div class="row">
-
-                    <div class="galerie">
-
-
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="Some lovely red flowers" data-image="http://onelive.us/wp-content/uploads/2014/08/flower-delivery-online.jpg" data-target="#image-gallery">
-                          <img class="img-responsive" src="http://onelive.us/wp-content/uploads/2014/08/flower-delivery-online.jpg" alt="Short alt text">
-                        </a>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="The car i dream about" data-caption="If you sponsor me, I can drive this car" data-image="http://www.picturesnew.com/media/images/car-image.jpg" data-target="#image-gallery">
-                          <img class="img-responsive" src="http://www.picturesnew.com/media/images/car-image.jpg" alt="A alt text">
-                        </a>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice" data-caption="And if there is money left, my girlfriend will receive this car" data-image="http://upload.wikimedia.org/wikipedia/commons/7/78/1997_Fiat_Panda.JPG" data-target="#image-gallery">
-                          <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/7/78/1997_Fiat_Panda.JPG" alt="Another alt text">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                          <h4 class="modal-title" id="image-gallery-title"></h4>
-                        </div>
-                        <div class="modal-body">
-                          <img id="image-gallery-image" class="img-responsive" src="">
-                        </div>
-                        <div class="modal-footer">
-
-                          <div class="col-md-2">
-                            <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
-                          </div>
-
-                          <div class="col-md-8 text-justify" id="image-gallery-caption">
-                            This text will be overwritten by jQuery
-                          </div>
-
-                          <div class="col-md-2">
-                            <button type="button" id="show-next-image" class="btn btn-default">Next</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
+                  <h2 class="featurette-heading text-center">Galerie
+                  </h2>
+                  <ul class="thumbnails">
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="images/img1.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/2.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/3.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/4.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/5.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/6.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/7.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span2">
+                      <a class="thumbnail" rel="lightbox[group]" href="img/pics/8.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/2.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/3.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/4.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/5.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/6.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/7.jpg"><img class="group1" src="images/img1.jpg"  title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                      <li class="span2">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/8.jpg"><img class="group1" src="images/img1.jpg" title="Image Title" /></a>
+                      </li> <!--end thumb -->
+                    </li> <!--end thumb -->
+                  </ul><!--end thumbnails -->
+                  
                 </div>
               </div>
             </div>
@@ -258,19 +253,19 @@
             <div class="maske">
               <div class="container">
                 <div class="featurette" id="schauspieler">
-                 <h2 class="featurette-heading">Schauspieler
+                 <h2 class="featurette-heading text-center">Schauspieler
                  </h2>
                </div>
              </div>
            </div>
          </div>
+
          <!-- Film-->
          <div class="section" id="section5">
           <div class="maske">
             <div class="container">
               <div class="featurette" id="film">
-                <h2 class="featurette-heading">Film
-                </h2>
+
               </div>
             </div>
           </div>
@@ -281,9 +276,9 @@
           <div class="maske">
             <div class="container">
               <div class="featurette" id="sponsoren">
-                <h2 class="featurette-heading">Sponsoren und Rechtliches
+                <h2 class="featurette-heading text-center">Sponsoren und Rechtliches
                 </h2>
-                <p class="lead">
+                <p class="lead text-center">
                  Ein solches nonkomerzielles, studentisches Vorhaben lässt sich 
                  natürlich nicht ohne spendable Sponsoren stämmen. An dieser Stelle 
                  bedankt sich das komplette Team recht herzlich bei den Gönnern. Auf 
@@ -313,38 +308,40 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- loadGallery -->
-    <script type="text/javascript" src="js/galerie.js"></script>
+    <!-- Galerie -->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/galerie.js"></script>
+
+    <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+
+    // Colorbox Call
+
+    $(document).ready(function(){
+      $("[rel^='lightbox']").prettyPhoto();});
+    </script>
+    
+    <!-- Navigation -->
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
     <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: ['Startseite', 'Handlung', 'Team', 'Galerie', 'Schauspieler', 'Film', 'Sponsoren'],
+        sectionsColor: ['#d46b4a', '#d46b4a', '#d3b04a', '#2e4858', '#d46b4a', '#d3b04a', '#2e4858'],
+        navigation: true,
+        navigationPosition: 'left',
+        navigationTooltips: ['Startseite', 'Handlung', 'Team','Galerie', 'Schauspieler', 'Film', 'Sponsoren/Rechtliches'],
 
-      loadGallery(true, 'a.thumbnail');
-
-      function disableButtons(counter_max, counter_current){
-        $('#show-previous-image, #show-next-image').show();
-        if(counter_max == counter_current){
-          $('#show-next-image').hide();
-        } else if (counter_current == 1){
-          $('#show-previous-image').hide();
-        }
-      }
-      </script>
-
-
-      <!-- Navigation -->
-      <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-
-      <script type="text/javascript">
-      $(document).ready(function() {
-        $('#fullpage').fullpage({
-          anchors: ['Startseite', 'Handlung', 'Team', 'Galerie', 'Schauspieler', 'Film', 'Sponsoren'],
-          sectionsColor: ['#d46b4a', '#d46b4a', '#d3b04a', '#2e4858', '#d46b4a', '#d3b04a', '#2e4858'],
-          navigation: true,
-          navigationPosition: 'left',
-          navigationTooltips: ['Startseite', 'Handlung', 'Team','Galerie', 'Schauspieler', 'Film', 'Sponsoren/Rechtliches'],
-
-                  //Scrolling
+                  //Scrolling1
                   css3: true,
                   scrollingSpeed: 950,
                   autoScrolling: true,
